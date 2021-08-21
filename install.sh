@@ -2,7 +2,7 @@
 # vim: noexpandtab sw=4 ts=4 ai:
 set -euo pipefail
 
-dotfiles=( bash_profile bashrc gitconfig tmux.conf vimrc )
+dotfiles=( bash_profile bashrc gitconfig tmux.conf vimrc screenrc )
 
 echo "This script will create symlinks for the following dotfiles:"
 for dotfile in ${dotfiles[@]}; do
