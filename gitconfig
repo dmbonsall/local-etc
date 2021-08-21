@@ -1,0 +1,13 @@
+[color]
+	ui = auto
+[user]
+	email = david.bonsall@hotmail.com
+	name = David Bonsall
+[push]
+	default = simple
+[alias]
+	graph = log --color --graph --pretty=format:'%Cred%h%Creset - %Cgreen(%cr) %C(bold blue)<%an>%Creset - %C(yellow)%d%Creset %s' --abbrev-commit
+[status]
+	submoduleSummary = true
+[diff]
+	submodule = log
