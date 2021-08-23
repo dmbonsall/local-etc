@@ -7,6 +7,10 @@
 	default = simple
 [alias]
 	graph = log --color --graph --pretty=format:'%Cred%h%Creset - %Cgreen(%cr) %C(bold blue)<%an>%Creset - %C(yellow)%d%Creset %s' --abbrev-commit
+	gr = log -n 20 --color --graph --pretty=format:'%Cred%h%Creset - %Cgreen(%cr) %C(bold blue)<%an>%Creset - %C(yellow)%d%Creset %s' --abbrev-commit
+    st = status
+    co = checkout
+    br = branch
 [status]
 	submoduleSummary = true
 [diff]
